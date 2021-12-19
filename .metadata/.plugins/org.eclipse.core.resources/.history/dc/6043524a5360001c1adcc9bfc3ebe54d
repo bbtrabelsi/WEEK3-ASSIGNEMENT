@@ -1,0 +1,28 @@
+package com.trabelsibilel.week3;
+
+public class CodingAssign {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int ages [] = {3 , 9 , 23 , 64 , 2 , 8 , 28 , 93 , 3};
+	//	int i=0;
+	//	int substract = ages [ages.length-1] - ages [i];
+	//	System.out.println(substract);
+	//	System.out.println(ages[i]);
+		
+//		for ( int age : ages) {
+//			int sum = 0;
+//				sum =+ age;
+//			double average = sum / ages.length;
+//			//	System.out.println(sum);
+//			//	System.out.println(average);
+//					
+		}
+		
+		
+		
+
+	}
+
+}

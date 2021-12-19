@@ -1,0 +1,57 @@
+package com.trabelsibilel.week3;
+
+public class CodingAssign {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+// 1
+		//a , b
+//		System.out.println("STEP 1");
+//		int ages [] = {3 , 9 , 23 , 64 , 2 , 8 , 28 , 93 , 10};
+//		int i=0;
+//		int substract = ages [ages.length-1] - ages [i];
+//		System.out.println(substract);
+//		
+//		//c
+//		
+//		int sum = 0;
+//		
+//	for ( int age : ages) {
+//		sum += age;
+//			}
+//	
+//	double average = sum / ages.length ;
+//		System.out.println(sum);
+//		System.out.println(average);
+
+//2				
+		System.out.println("STEP 2");
+	     
+		String names [] = { "Sam" , "Tommy" , "Tim" , "Sally" , "Buck" , "Bob"};
+		
+		int sum = 0;
+		for (int i = 0 ; i < names.length ; i++) {
+			 sum += names[i].length();
+		}
+		
+		double average = sum / names.length ;
+		System.out.println(sum);
+		System.out.println(" average number of letters= " + average);
+		
+		String namesTogether= "";
+		 for ( int i = 0; i<names.length ; i++) {
+		 namesTogether += names [i] + " " ;
+		 }
+		 System.out.println(namesTogether);
+		
+		
+		
+		
+			
+		
+		
+
+	}
+
+}
